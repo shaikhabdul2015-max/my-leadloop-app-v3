@@ -1,0 +1,1058 @@
+{
+  "profile": {
+    "id": "profile-1",
+    "user_id": "user-demo-1",
+    "email": "abdul@leadloop.ai",
+    "full_name": "Abdul Shaikh",
+    "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+    "business_type": "agency",
+    "product_description": "Custom Web Design & Conversion Optimization Services",
+    "preferred_tone": "professional-friendly",
+    "created_at": "2026-08-28T06:33:41.808Z",
+    "updated_at": "2026-09-27T06:33:41.808Z"
+  },
+  "workspace": {
+    "id": "ws-default",
+    "name": "Nexus Growth Studio",
+    "owner_id": "user-demo-1",
+    "ai_generations_used": 30,
+    "created_at": "2026-08-28T06:33:41.808Z",
+    "updated_at": "2026-09-27T06:33:41.808Z"
+  },
+  "subscription": {
+    "id": "sub-default",
+    "workspace_id": "ws-default",
+    "plan": "free",
+    "status": "active",
+    "ai_generations_used": 30,
+    "ai_limit": 50,
+    "lead_limit": 25,
+    "current_period_end": "2026-10-19T06:33:41.808Z",
+    "created_at": "2026-09-19T06:33:41.808Z",
+    "updated_at": "2026-09-27T06:33:41.808Z"
+  },
+  "team_members": [
+    {
+      "id": "mem-1",
+      "workspace_id": "ws-default",
+      "user_id": "user-demo-1",
+      "name": "Abdul Shaikh",
+      "email": "abdul@leadloop.ai",
+      "role": "owner",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "created_at": "2026-08-28T07:39:45.031Z"
+    },
+    {
+      "id": "mem-2",
+      "workspace_id": "ws-default",
+      "user_id": "user-demo-2",
+      "name": "Sarah Chen",
+      "email": "sarah.c@leadloop.ai",
+      "role": "admin",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "created_at": "2026-09-13T07:39:45.031Z"
+    },
+    {
+      "id": "mem-3",
+      "workspace_id": "ws-default",
+      "user_id": "user-demo-3",
+      "name": "Devon Vance",
+      "email": "devon@leadloop.ai",
+      "role": "member",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "created_at": "2026-09-20T07:39:45.031Z"
+    }
+  ],
+  "stages": [
+    {
+      "id": "stage-1",
+      "pipeline_id": "default-pipeline",
+      "name": "New",
+      "position": 1,
+      "color": "#3b82f6"
+    },
+    {
+      "id": "stage-2",
+      "pipeline_id": "default-pipeline",
+      "name": "Contacted",
+      "position": 2,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "stage-3",
+      "pipeline_id": "default-pipeline",
+      "name": "Interested",
+      "position": 3,
+      "color": "#06b6d4"
+    },
+    {
+      "id": "stage-4",
+      "pipeline_id": "default-pipeline",
+      "name": "Negotiating",
+      "position": 4,
+      "color": "#f59e0b"
+    },
+    {
+      "id": "stage-5",
+      "pipeline_id": "default-pipeline",
+      "name": "Won",
+      "position": 5,
+      "color": "#10b981"
+    },
+    {
+      "id": "stage-6",
+      "pipeline_id": "default-pipeline",
+      "name": "Lost",
+      "position": 6,
+      "color": "#ef4444"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-1",
+      "workspace_id": "ws-default",
+      "name": "Rahul Sharma",
+      "company": "XYZ Digital",
+      "email": "rahul@xyzdigital.co",
+      "phone": "+91 98201 44521",
+      "source": "referral",
+      "service": "Website Redesign & SEO",
+      "deal_value": 75000,
+      "currency": "INR",
+      "stage_id": "stage-3",
+      "status": "active",
+      "last_contacted_at": "2026-09-24T06:33:41.808Z",
+      "next_followup_at": "2026-09-27T14:30:00.000Z",
+      "notes": "Interested in website redesign. Mentioned they need mobile speed improvement and HubSpot integration. Needs to discuss budget with business partner.",
+      "priority": "medium",
+      "priority_score": 45,
+      "created_at": "2026-09-17T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z",
+      "temperature": "HOT",
+      "score_category": "HOT",
+      "ai_close_probability": 63,
+      "probability_score": 63,
+      "next_followup_date": "2026-09-27T14:30:00.000Z",
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": [],
+      "buying_intent": "medium",
+      "memory": {
+        "customer_needs": [
+          "Clear deliverable timeline",
+          "Transparent pricing scope",
+          "Proven case study"
+        ],
+        "pain_points": [],
+        "preferences": [],
+        "objections": [
+          "Timeline alignment",
+          "Price / Budget justification"
+        ],
+        "last_analyzed_at": "2026-10-23T13:29:01.930Z",
+        "decision_maker": "Co-founder or Partner",
+        "important_notes": "[AI Analysis]: Lead engaged regarding Website Redesign & SEO. Primary topic centered around budget alignment and next approval milestones.\n[AI Analysis]: Lead engaged regarding Website Redesign & SEO. Primary topic centered around budget alignment and next approval milestones.\n[AI Analysis]: Lead engaged regarding Website Redesign & SEO. Primary topic centered around deliverable timeline and next approval milestones.\n[AI Analysis]: Lead engaged regarding Website Redesign & SEO. Primary topic centered around budget alignment and next approval milestones."
+      },
+      "score_factors": [
+        {
+          "label": "Baseline Prospect Value",
+          "impact": "neutral",
+          "points": 30,
+          "description": "Default scoring baseline for qualified lead"
+        },
+        {
+          "label": "Mid-Tier Deal Value",
+          "impact": "positive",
+          "points": 15,
+          "description": "Solid account value"
+        },
+        {
+          "label": "Stage: Expressed Interest",
+          "impact": "positive",
+          "points": 20,
+          "description": "Lead actively evaluating proposal"
+        },
+        {
+          "label": "Inactivity Decay (29 days dormant)",
+          "impact": "negative",
+          "points": -30,
+          "description": "Automated server-side decay: 5% per day past 4-day threshold"
+        },
+        {
+          "label": "⚠️ Overdue Scheduled Follow-up",
+          "impact": "positive",
+          "points": 10,
+          "description": "Requires immediate user action"
+        },
+        {
+          "label": "Pending Objection: Timeline alignment",
+          "impact": "negative",
+          "points": -8,
+          "description": "Requires targeted response"
+        }
+      ],
+      "risk_level": "high",
+      "risk_reasons": [
+        "No activity for 29 days (momentum decayed)",
+        "Missed scheduled follow-up deadline",
+        "Unresolved objection: \"Timeline alignment\""
+      ]
+    },
+    {
+      "id": "lead-2",
+      "workspace_id": "ws-default",
+      "name": "Priya Nair",
+      "company": "Priya Digital Agency",
+      "email": "priya@priyadigital.io",
+      "phone": "+91 98450 11234",
+      "source": "linkedin",
+      "service": "Monthly Retainer - PPC & CRO",
+      "deal_value": 120000,
+      "currency": "INR",
+      "stage_id": "stage-4",
+      "status": "active",
+      "last_contacted_at": "2026-09-26T06:33:41.808Z",
+      "next_followup_at": "2026-09-27T14:30:00.000Z",
+      "notes": "Reviewed our proposal draft. Wants 10% concession on quarterly prepayment or inclusion of 2 extra landing pages.",
+      "priority": "high",
+      "priority_score": 91,
+      "created_at": "2026-09-13T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z",
+      "temperature": "HOT",
+      "score_category": "HOT",
+      "ai_close_probability": 68,
+      "probability_score": 68,
+      "next_followup_date": "2026-09-27T14:30:00.000Z",
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": []
+    },
+    {
+      "id": "lead-3",
+      "workspace_id": "ws-default",
+      "name": "Vikram Malhotra",
+      "company": "Apex Interiors",
+      "email": "vikram@apexinteriors.in",
+      "phone": "+91 99100 87654",
+      "source": "website",
+      "service": "Luxury Brand Portfolio Site",
+      "deal_value": 95000,
+      "currency": "INR",
+      "stage_id": "stage-2",
+      "status": "active",
+      "last_contacted_at": "2026-09-25T06:33:41.808Z",
+      "next_followup_at": "2026-09-26T06:33:41.808Z",
+      "notes": "Architectural studio with 20 high-res project showcases. Sent initial portfolio link. Said \"I will look at this over the weekend\".",
+      "priority": "high",
+      "priority_score": 88,
+      "created_at": "2026-09-20T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z",
+      "temperature": "HOT",
+      "score_category": "HOT",
+      "ai_close_probability": 66,
+      "probability_score": 66,
+      "next_followup_date": "2026-09-26T06:33:41.808Z",
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": []
+    },
+    {
+      "id": "lead-4",
+      "workspace_id": "ws-default",
+      "name": "Mohammed Khan",
+      "company": "Nova Solutions",
+      "email": "mkhan@novasolutions.ae",
+      "phone": "+971 50 123 4567",
+      "source": "inbound",
+      "service": "SaaS Dashboard UI/UX",
+      "deal_value": 150000,
+      "currency": "INR",
+      "stage_id": "stage-1",
+      "status": "active",
+      "last_contacted_at": null,
+      "next_followup_at": "2026-09-27T14:30:00.000Z",
+      "notes": "Submitted contact form inquiry. Looking for complete redesign of their B2B customer billing portal before Q4 launch.",
+      "priority": "medium",
+      "priority_score": 65,
+      "created_at": "2026-09-26T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z",
+      "temperature": "WARM",
+      "score_category": "WARM",
+      "ai_close_probability": 49,
+      "probability_score": 49,
+      "next_followup_date": "2026-09-27T14:30:00.000Z",
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": []
+    },
+    {
+      "id": "lead-5",
+      "workspace_id": "ws-default",
+      "name": "Elena Rostova",
+      "company": "CloudScale AI",
+      "email": "elena@cloudscale.tech",
+      "phone": "+1 415 555 0192",
+      "source": "referral",
+      "service": "Design Sprint & Interactive Prototype",
+      "deal_value": 240000,
+      "currency": "INR",
+      "stage_id": "stage-5",
+      "status": "won",
+      "last_contacted_at": "2026-09-26T06:33:41.808Z",
+      "next_followup_at": null,
+      "notes": "Contract signed! Initial 50% deposit received. Kickoff call scheduled for Monday 10 AM.",
+      "priority": "low",
+      "priority_score": 15,
+      "created_at": "2026-09-02T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z",
+      "temperature": "COLD",
+      "score_category": "COLD",
+      "ai_close_probability": 11,
+      "probability_score": 11,
+      "next_followup_date": null,
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": []
+    },
+    {
+      "id": "lead-6",
+      "workspace_id": "ws-default",
+      "name": "Ananya Deshmukh",
+      "company": "FinFlow Tech",
+      "email": "ananya@finflow.co",
+      "phone": "+91 91234 56789",
+      "source": "outbound",
+      "service": "Mobile Banking App UI Kit",
+      "deal_value": 80000,
+      "currency": "INR",
+      "stage_id": "stage-6",
+      "status": "lost",
+      "last_contacted_at": "2026-09-15T06:33:41.808Z",
+      "next_followup_at": null,
+      "notes": "Decided to build internally with their recently hired front-end lead. Keep in touch for potential Q2 overflow work.",
+      "priority": "low",
+      "priority_score": 10,
+      "created_at": "2026-09-07T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z",
+      "temperature": "COLD",
+      "score_category": "COLD",
+      "ai_close_probability": 8,
+      "probability_score": 8,
+      "next_followup_date": null,
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": []
+    },
+    {
+      "id": "lead-7",
+      "workspace_id": "ws-default",
+      "organization_id": "ws-default",
+      "name": "Karan Mehra",
+      "company": "Nexus Robotics",
+      "email": "karan@nexusrobotics.io",
+      "phone": "+91 99887 76655",
+      "source": "inbound",
+      "service": "Industrial IoT Dashboard",
+      "deal_value": 120000,
+      "currency": "INR",
+      "stage_id": "stage-1",
+      "status": "active",
+      "last_contacted_at": null,
+      "last_activity_at": null,
+      "next_followup_at": null,
+      "next_followup_date": null,
+      "notes": "Inbound inquiry submitted recently. No interaction or historical behavioral logs recorded yet.",
+      "priority": "medium",
+      "priority_score": null,
+      "score_category": null,
+      "temperature": null,
+      "score_reason": "Insufficient historical data: Brand new prospect awaiting initial discovery contact",
+      "ai_close_probability": 40,
+      "message_draft": null,
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": [],
+      "score_factors": [],
+      "buying_intent": "medium",
+      "risk_level": "low",
+      "risk_status": "HEALTHY",
+      "risk_reasons": [
+        "New lead awaiting initial discovery touch"
+      ],
+      "assigned_to": "user-demo-1",
+      "created_at": "2026-10-23T10:28:45.160Z",
+      "updated_at": "2026-10-23T10:28:45.160Z",
+      "probability_score": 40
+    },
+    {
+      "id": "lead-unauthorized-sample",
+      "workspace_id": "ws-foreign-workspace",
+      "organization_id": "ws-foreign-workspace",
+      "name": "Restricted Enterprise Lead",
+      "company": "Foreign Enterprise Ltd",
+      "email": "restricted@foreigncorp.com",
+      "phone": "+1 555 901 2289",
+      "source": "confidential",
+      "service": "Enterprise CRM Suite",
+      "deal_value": 300000,
+      "currency": "USD",
+      "stage_id": "stage-1",
+      "status": "active",
+      "last_contacted_at": null,
+      "next_followup_at": null,
+      "notes": "Confidential lead in separate workspace. Unauthorized for default workspace users.",
+      "priority": "high",
+      "assigned_to": "user-foreign-999",
+      "created_at": "2026-10-24T07:55:56.495Z",
+      "updated_at": "2026-10-24T07:55:56.495Z",
+      "temperature": null,
+      "score_category": null,
+      "ai_close_probability": 40,
+      "probability_score": 40,
+      "next_followup_date": null,
+      "dynamic_sentiment": "neutral",
+      "competitor_tracks": []
+    }
+  ],
+  "followups": [
+    {
+      "id": "followup-1",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "scheduled_at": "2026-09-27T14:30:00.000Z",
+      "status": "pending",
+      "message": "Hi Rahul, hope your week is off to a great start! Just checking in to see if you had a chance to connect with your partner regarding the website redesign scope we discussed? Happy to hop on a quick 5-min call if any questions came up.",
+      "channel": "whatsapp",
+      "ai_generated": true,
+      "ai_intent": "interested",
+      "ai_reason": "The lead expressed interest but has not confirmed the next step after discussing with partner.",
+      "sent_at": null,
+      "created_at": "2026-09-24T06:33:41.808Z",
+      "updated_at": "2026-09-24T06:33:41.808Z"
+    },
+    {
+      "id": "followup-2",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-2",
+      "scheduled_at": "2026-09-27T14:30:00.000Z",
+      "status": "pending",
+      "message": "Hi Priya, following up on our proposal discussion! We can accommodate the 2 dedicated landing page templates within the quarterly scope. Would that give your team the green light to proceed with the kickoff this week?",
+      "channel": "email",
+      "ai_generated": true,
+      "ai_intent": "ready_to_buy",
+      "ai_reason": "Lead is in final negotiation stage; addressing the requested deliverable incentive can close the deal.",
+      "sent_at": null,
+      "created_at": "2026-09-26T06:33:41.808Z",
+      "updated_at": "2026-09-26T06:33:41.808Z"
+    },
+    {
+      "id": "followup-3",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-3",
+      "scheduled_at": "2026-09-26T06:33:41.808Z",
+      "status": "overdue",
+      "message": "Hi Vikram, following up on the portfolio examples I shared. Did you get a moment to review the architectural layouts? Let me know if you would like me to prepare a bespoke moodboard for Apex Interiors.",
+      "channel": "whatsapp",
+      "ai_generated": true,
+      "ai_intent": "evaluating",
+      "ai_reason": "Lead was sent portfolio links 2 days ago; prompt check-in prevents lead momentum from cooling.",
+      "sent_at": null,
+      "created_at": "2026-09-25T06:33:41.808Z",
+      "updated_at": "2026-09-25T06:33:41.808Z"
+    },
+    {
+      "id": "followup-4",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-4",
+      "scheduled_at": "2026-09-28T06:33:41.808Z",
+      "status": "pending",
+      "message": "Hello Mohammed, thank you for reaching out regarding Nova Solutions billing portal redesign. We have built similar high-velocity fintech interfaces. Could we arrange a 15-minute intro chat tomorrow at 3 PM UAE time?",
+      "channel": "email",
+      "ai_generated": true,
+      "ai_intent": "new_inquiry",
+      "ai_reason": "New inbound lead requires swift discovery qualification call.",
+      "sent_at": null,
+      "created_at": "2026-09-27T06:33:41.808Z",
+      "updated_at": "2026-09-27T06:33:41.808Z"
+    },
+    {
+      "id": "followup-5",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-5",
+      "scheduled_at": "2026-09-26T06:33:41.808Z",
+      "status": "completed",
+      "message": "Elena, great talking with you! Sending over the kickoff checklist and access requirements for our Figma workspace.",
+      "channel": "email",
+      "ai_generated": false,
+      "sent_at": "2026-09-26T06:33:41.808Z",
+      "created_at": "2026-09-25T06:33:41.808Z",
+      "updated_at": "2026-09-26T06:33:41.808Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1792762141931",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "type": "ai_analysis",
+      "content": "AI analyzed conversation: Intent MEDIUM, objection: \"Price / Budget justification\". Recommended: Offer adjusted payment terms or deliverable tradeoff",
+      "created_at": "2026-10-23T13:29:01.931Z"
+    },
+    {
+      "id": "act-1792761745168",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "type": "ai_analysis",
+      "content": "AI analyzed conversation: Intent MEDIUM, objection: \"Timeline alignment\". Recommended: Send targeted follow-up to address partner questions",
+      "created_at": "2026-10-23T13:22:25.168Z"
+    },
+    {
+      "id": "act-1792752338627",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "type": "ai_analysis",
+      "content": "AI analyzed conversation: Intent MEDIUM, objection: \"Price / Budget justification\". Recommended: Offer adjusted payment terms or deliverable tradeoff",
+      "created_at": "2026-10-23T10:45:38.627Z"
+    },
+    {
+      "id": "act-1792752334516",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "type": "ai_analysis",
+      "content": "AI analyzed conversation: Intent MEDIUM, objection: \"Price / Budget justification\". Recommended: Offer adjusted payment terms or deliverable tradeoff",
+      "created_at": "2026-10-23T10:45:34.516Z"
+    },
+    {
+      "id": "act-1",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "type": "whatsapp",
+      "content": "Sent WhatsApp follow-up with Figma wireframe preview link.",
+      "channel": "whatsapp",
+      "created_at": "2026-09-24T06:33:41.808Z"
+    },
+    {
+      "id": "act-2",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "type": "call",
+      "content": "20-minute discovery call completed. Discussed timeline and CMS preference (Webflow).",
+      "channel": "call",
+      "created_at": "2026-09-22T06:33:41.808Z"
+    },
+    {
+      "id": "act-3",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-2",
+      "type": "meeting",
+      "content": "Proposal review meeting on Google Meet. Client requested landing page add-ons.",
+      "channel": "meeting",
+      "created_at": "2026-09-26T06:33:41.808Z"
+    },
+    {
+      "id": "act-4",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-3",
+      "type": "note",
+      "content": "Client prefers WhatsApp communication during business hours (11 AM - 6 PM).",
+      "created_at": "2026-09-25T06:33:41.808Z"
+    },
+    {
+      "id": "act-5",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-5",
+      "type": "status_change",
+      "content": "Stage changed to Won! Deal closed for ₹2,40,000.",
+      "created_at": "2026-09-26T06:33:41.808Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "content": "Hi Abdul, loved the previous work you sent. Can you share an estimate for an 8-page corporate site?",
+      "channel": "whatsapp",
+      "direction": "inbound",
+      "created_at": "2026-09-21T06:33:41.808Z"
+    },
+    {
+      "id": "msg-2",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "content": "Hi Rahul! Absolutely. For an 8-page responsive site with SEO architecture, investment is ₹75,000. Let me know when you'd like to review the breakdown.",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "created_at": "2026-09-22T06:33:41.808Z"
+    },
+    {
+      "id": "msg-3",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "content": "I'll discuss this with my partner and get back to you shortly.",
+      "channel": "whatsapp",
+      "direction": "inbound",
+      "created_at": "2026-09-24T06:33:41.808Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-2",
+      "title": "Send revised proposal with 2 landing page variants",
+      "description": "Address Priya’s request for additional landing page scope to close quarterly agreement.",
+      "due_date": "2026-09-27T14:30:00.000Z",
+      "priority": "high",
+      "status": "todo",
+      "assigned_to": "user-demo-1",
+      "is_ai_recommended": true,
+      "created_at": "2026-09-26T07:39:45.031Z"
+    },
+    {
+      "id": "task-2",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-1",
+      "title": "Prepare Webflow CMS structure mockup",
+      "description": "Show Rahul how easily his marketing team can create blogs and landing pages.",
+      "due_date": "2026-09-28T07:39:45.031Z",
+      "priority": "medium",
+      "status": "todo",
+      "assigned_to": "user-demo-2",
+      "is_ai_recommended": true,
+      "created_at": "2026-09-25T07:39:45.031Z"
+    },
+    {
+      "id": "task-3",
+      "workspace_id": "ws-default",
+      "lead_id": "lead-4",
+      "title": "Qualify Nova Solutions B2B billing portal architecture",
+      "description": "Schedule 15-min discovery call to identify auth flow and Stripe API requirements.",
+      "due_date": "2026-09-27T14:30:00.000Z",
+      "priority": "high",
+      "status": "in_progress",
+      "assigned_to": "user-demo-1",
+      "is_ai_recommended": false,
+      "created_at": "2026-09-26T07:39:45.031Z"
+    }
+  ],
+  "automations": [
+    {
+      "id": "auto-1",
+      "workspace_id": "ws-default",
+      "name": "Auto Follow-up on Stage: Interested",
+      "description": "When a lead enters Interested stage, automatically schedule a follow-up 2 days later.",
+      "trigger_type": "stage_change",
+      "condition": {
+        "stage_id": "stage-3"
+      },
+      "action_type": "schedule_followup",
+      "action_config": {
+        "delay_days": 2,
+        "channel": "whatsapp"
+      },
+      "is_active": true,
+      "executions_count": 14,
+      "last_executed_at": "2026-09-26T07:39:45.031Z"
+    },
+    {
+      "id": "auto-2",
+      "workspace_id": "ws-default",
+      "name": "At-Risk Deal Inactivity Alert",
+      "description": "When an active lead has no contact for 5 days, flag deal risk and create AI recommendation.",
+      "trigger_type": "inactivity_days",
+      "condition": {
+        "days": 5
+      },
+      "action_type": "create_recommendation",
+      "action_config": {
+        "delay_days": 0
+      },
+      "is_active": true,
+      "executions_count": 8,
+      "last_executed_at": "2026-09-25T07:39:45.031Z"
+    },
+    {
+      "id": "auto-3",
+      "workspace_id": "ws-default",
+      "name": "Negotiation Priority Booster",
+      "description": "When a lead enters Negotiating stage, automatically increase priority score to HOT.",
+      "trigger_type": "stage_change",
+      "condition": {
+        "stage_id": "stage-4"
+      },
+      "action_type": "increase_priority",
+      "action_config": {},
+      "is_active": true,
+      "executions_count": 6,
+      "last_executed_at": "2026-09-24T07:39:45.031Z"
+    },
+    {
+      "id": "auto-4",
+      "workspace_id": "ws-default",
+      "name": "Overdue Follow-up Notification",
+      "description": "When a scheduled follow-up passes its due date, create an urgent notification.",
+      "trigger_type": "followup_overdue",
+      "condition": {},
+      "action_type": "send_notification",
+      "action_config": {
+        "message_note": "Overdue touchpoint requires immediate rescue"
+      },
+      "is_active": true,
+      "executions_count": 11,
+      "last_executed_at": "2026-09-26T07:39:45.031Z"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "integ-1",
+      "channel": "whatsapp",
+      "name": "Official WhatsApp Cloud API",
+      "connected": false,
+      "status_label": "Connect API"
+    },
+    {
+      "id": "integ-2",
+      "channel": "email",
+      "name": "Google Workspace / Gmail & SMTP",
+      "connected": false,
+      "status_label": "Connect"
+    },
+    {
+      "id": "integ-3",
+      "channel": "sms",
+      "name": "Twilio SMS Provider",
+      "connected": false,
+      "status_label": "Connect"
+    },
+    {
+      "id": "integ-4",
+      "channel": "webchat",
+      "name": "Website Live Chat Widget",
+      "connected": false,
+      "status_label": "Connect"
+    },
+    {
+      "id": "integ-5",
+      "channel": "instagram",
+      "name": "Instagram Direct Messages API",
+      "connected": false,
+      "status_label": "Connect"
+    },
+    {
+      "id": "integ-6",
+      "channel": "facebook",
+      "name": "Facebook Messenger Leads",
+      "connected": false,
+      "status_label": "Connect"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "audit-1792762141931",
+      "workspace_id": "ws-default",
+      "action": "Conversation Analyzed",
+      "entity_type": "lead",
+      "entity_id": "lead-1",
+      "details": "Parsed dialogue with Rahul Sharma; Intent: medium.",
+      "user_name": "Abdul Shaikh",
+      "created_at": "2026-10-23T13:29:01.931Z"
+    },
+    {
+      "id": "audit-1792761745168",
+      "workspace_id": "ws-default",
+      "action": "Conversation Analyzed",
+      "entity_type": "lead",
+      "entity_id": "lead-1",
+      "details": "Parsed dialogue with Rahul Sharma; Intent: medium.",
+      "user_name": "Abdul Shaikh",
+      "created_at": "2026-10-23T13:22:25.168Z"
+    },
+    {
+      "id": "audit-1792752338627",
+      "workspace_id": "ws-default",
+      "action": "Conversation Analyzed",
+      "entity_type": "lead",
+      "entity_id": "lead-1",
+      "details": "Parsed dialogue with Rahul Sharma; Intent: medium.",
+      "user_name": "Abdul Shaikh",
+      "created_at": "2026-10-23T10:45:38.627Z"
+    },
+    {
+      "id": "audit-1792752334516",
+      "workspace_id": "ws-default",
+      "action": "Conversation Analyzed",
+      "entity_type": "lead",
+      "entity_id": "lead-1",
+      "details": "Parsed dialogue with Rahul Sharma; Intent: medium.",
+      "user_name": "Abdul Shaikh",
+      "created_at": "2026-10-23T10:45:34.516Z"
+    },
+    {
+      "id": "audit-1",
+      "workspace_id": "ws-default",
+      "action": "Lead Created",
+      "entity_type": "lead",
+      "entity_id": "lead-4",
+      "details": "Inbound lead Mohammed Khan (Nova Solutions) added to New stage.",
+      "user_name": "Abdul Shaikh",
+      "created_at": "2026-09-26T07:39:45.031Z"
+    },
+    {
+      "id": "audit-2",
+      "workspace_id": "ws-default",
+      "action": "Deal Won",
+      "entity_type": "lead",
+      "entity_id": "lead-5",
+      "details": "Elena Rostova deal closed for ₹2,40,000 in Won stage.",
+      "user_name": "Abdul Shaikh",
+      "created_at": "2026-09-26T07:39:45.031Z"
+    },
+    {
+      "id": "audit-3",
+      "workspace_id": "ws-default",
+      "action": "Conversation Analyzed",
+      "entity_type": "lead",
+      "entity_id": "lead-1",
+      "details": "AI parsed WhatsApp dialogue with Rahul Sharma; extracted objection and budget timeline.",
+      "user_name": "AI Sales Copilot",
+      "created_at": "2026-09-25T07:39:45.031Z"
+    }
+  ],
+  "battlecards": [
+    {
+      "id": "battle-1",
+      "organization_id": "ws-default",
+      "competitor": "Salesforce",
+      "objection": "We are already heavily invested in Salesforce and looking at their built-in Einstein AI features.",
+      "suggested_response": "Salesforce Einstein is powerful for global enterprises with 1,000+ reps, but requires months of custom Apex development, $150+/seat consulting, and complex prompt setup. LeadLoop AI activates immediately with WhatsApp-first native workflows, instant deal doctoring, and zero configuration lag.",
+      "differentiation": "Ultra-fast onboarding (<5 mins vs 6 months), native WhatsApp & Indian regional sales cadence support, zero complex administrative overhead, and fraction of total cost of ownership.",
+      "discovery_questions": [
+        "How long does your team currently spend updating fields in Salesforce daily?",
+        "Are your reps getting real-time WhatsApp response alerts and automated draft responses from Einstein?"
+      ],
+      "recommended_action": "Offer a 7-day side-by-side trial with a single sales pod to prove 3x faster response times.",
+      "enabled": true,
+      "created_at": "2026-08-28T07:39:45.031Z",
+      "updated_at": "2026-09-27T07:39:45.031Z"
+    },
+    {
+      "id": "battle-2",
+      "organization_id": "ws-default",
+      "competitor": "HubSpot",
+      "objection": "We use HubSpot CRM for our inbound marketing and email sequences.",
+      "suggested_response": "HubSpot is fantastic for top-of-funnel inbound forms and email sequences, but when buyers go quiet on email, reps are stranded. LeadLoop AI provides intelligent omnichannel fallback—if an email or WhatsApp is unread within 24 hours, it dynamically routes follow-ups without manual rep intervention.",
+      "differentiation": "True multi-channel fallback automation (WhatsApp -> Email -> LinkedIn), AI behavioral momentum scoring, and automated objection battlecards.",
+      "discovery_questions": [
+        "What is your email open rate on second and third follow-ups?",
+        "How do your reps currently follow up with prospects who prefer WhatsApp over email?"
+      ],
+      "recommended_action": "Demonstrate LeadLoop omnichannel cadence generator comparing standard HubSpot email vs multi-channel rescue sequence.",
+      "enabled": true,
+      "created_at": "2026-08-28T07:39:45.031Z",
+      "updated_at": "2026-09-27T07:39:45.031Z"
+    },
+    {
+      "id": "battle-3",
+      "organization_id": "ws-default",
+      "competitor": "Zoho",
+      "objection": "Zoho CRM is significantly cheaper and offers an all-in-one suite for our business.",
+      "suggested_response": "While Zoho offers a broad bundle of applications, sales teams frequently report high friction, cluttered UI, and rudimentary Zia AI suggestions that lack real deal context. LeadLoop AI is laser-focused on deal velocity: proactive who-to-call intelligence, automated transcripts digestion, and high-converting message generation.",
+      "differentiation": "Modern zero-clutter user experience, deeper conversation context extraction, predictive close forecasting, and tailored Indian SMB workflows.",
+      "discovery_questions": [
+        "How often do your sales reps actually use Zia AI suggestions in Zoho?",
+        "Do you have automated score decay alerting you when a high-value prospect has cooled off for 4+ days?"
+      ],
+      "recommended_action": "Highlight our AI Deal Doctor analysis and automated score decay alerts.",
+      "enabled": true,
+      "created_at": "2026-08-28T07:39:45.031Z",
+      "updated_at": "2026-09-27T07:39:45.031Z"
+    },
+    {
+      "id": "battle-4",
+      "organization_id": "ws-default",
+      "competitor": "Pipedrive",
+      "objection": "We love Pipedrive for its simple kanban board layout.",
+      "suggested_response": "Pipedrive has a clean visual pipeline, but it is purely passive—it requires reps to manually remember to move cards and write every follow-up. LeadLoop AI is an active Sales Command Center that continuously audits deal health, predicts close values, flags competitor risks, and drafts the exact follow-up message.",
+      "differentiation": "Proactive AI Sales Command Center vs passive visual board, built-in competitor detection, automated multi-channel sequences, and AI predictive revenue forecasting.",
+      "discovery_questions": [
+        "How many deals slipped through the cracks last month because a rep forgot to follow up?",
+        "Does Pipedrive automatically calculate close confidence based on buyer sentiment?"
+      ],
+      "recommended_action": "Walk through the AI Sales Command Center dashboard showing automated At-Risk and Losing Momentum flags.",
+      "enabled": true,
+      "created_at": "2026-08-28T07:39:45.031Z",
+      "updated_at": "2026-09-27T07:39:45.031Z"
+    },
+    {
+      "id": "battle-5",
+      "organization_id": "ws-default",
+      "competitor": "Microsoft Dynamics",
+      "objection": "Our enterprise IT department mandates Microsoft Dynamics 365 for compliance.",
+      "suggested_response": "Dynamics 365 offers deep ERP integration, but frontline sales reps find it heavy, slow on mobile, and complex for rapid lead follow-up. LeadLoop AI serves as a high-velocity sales engagement acceleration layer that keeps reps productive while maintaining full audit logging.",
+      "differentiation": "Agile sales execution speed, instant mobile responsiveness, native WhatsApp conversation intelligence, and intuitive AI copilot.",
+      "discovery_questions": [
+        "How compliant are reps with logging daily follow-ups in Dynamics?",
+        "Can your reps generate a personalized follow-up in under 5 seconds from their phone?"
+      ],
+      "recommended_action": "Demonstrate our Command Bar and 1-click sequence generator for high-velocity sales reps.",
+      "enabled": true,
+      "created_at": "2026-08-28T07:39:45.031Z",
+      "updated_at": "2026-09-27T07:39:45.031Z"
+    }
+  ],
+  "score_history": [
+    {
+      "id": "hist-1",
+      "organization_id": "ws-default",
+      "lead_id": "lead-3",
+      "previous_score": 84,
+      "new_score": 64,
+      "change_amount": -20,
+      "reason": "Server-side score decay: 5% per day applied due to 7 consecutive days without touchpoint",
+      "activity_type": "score_decay",
+      "created_at": "2026-09-26T07:39:45.031Z"
+    },
+    {
+      "id": "hist-2",
+      "organization_id": "ws-default",
+      "lead_id": "lead-2",
+      "previous_score": 95,
+      "new_score": 84,
+      "change_amount": -11,
+      "reason": "Score decay: 6 days inactive on high-value negotiating deal",
+      "activity_type": "score_decay",
+      "created_at": "2026-09-26T07:39:45.031Z"
+    },
+    {
+      "id": "hist-3",
+      "organization_id": "ws-default",
+      "lead_id": "lead-1",
+      "previous_score": 75,
+      "new_score": 91,
+      "change_amount": 16,
+      "reason": "Inbound WhatsApp reply and partner budget confirmation request",
+      "activity_type": "whatsapp_reply",
+      "created_at": "2026-09-25T07:39:45.031Z"
+    }
+  ],
+  "competitor_mentions": [
+    {
+      "id": "comp-1",
+      "organization_id": "ws-default",
+      "lead_id": "lead-3",
+      "competitor": "Salesforce",
+      "context": "Vikram mentioned their regional board asked whether they should use Salesforce or a specialized agency stack.",
+      "sentiment": "neutral",
+      "confidence": 94,
+      "source": "discovery_notes",
+      "objection": "Board prefers established vendor credibility",
+      "created_at": "2026-09-24T07:39:45.031Z"
+    },
+    {
+      "id": "comp-2",
+      "organization_id": "ws-default",
+      "lead_id": "lead-4",
+      "competitor": "HubSpot",
+      "context": "Mohammed mentioned comparing our pricing against standard HubSpot CMS development partner rates.",
+      "sentiment": "neutral",
+      "confidence": 89,
+      "source": "email",
+      "objection": "Benchmarking against HubSpot certified partner quotes",
+      "created_at": "2026-09-26T07:39:45.031Z"
+    }
+  ],
+  "cadences": [
+    {
+      "id": "cad-1",
+      "organization_id": "ws-default",
+      "lead_id": "lead-1",
+      "name": "High-Touch WhatsApp/Email Rescue Cadence",
+      "status": "active",
+      "created_at": "2026-09-25T07:39:45.031Z",
+      "updated_at": "2026-09-27T07:39:45.031Z",
+      "steps": [
+        {
+          "id": "cstep-1",
+          "cadence_id": "cad-1",
+          "step_number": 1,
+          "channel": "whatsapp",
+          "delay": 0,
+          "message_template": "Hi Rahul, following up on our proposal discussion! Did you get a chance to review the terms with Samir?",
+          "fallback_channel": "email",
+          "fallback_after_hours": 24,
+          "status": "sent",
+          "created_at": "2026-09-25T07:39:45.031Z"
+        },
+        {
+          "id": "cstep-2",
+          "cadence_id": "cad-1",
+          "step_number": 2,
+          "channel": "email",
+          "delay": 48,
+          "message_template": "Hi Rahul, sharing our client case study showing a 42% speed bump after our redesign. Hope this helps Samir's review!",
+          "fallback_channel": "linkedin",
+          "fallback_after_hours": 48,
+          "status": "pending",
+          "created_at": "2026-09-25T07:39:45.031Z"
+        }
+      ]
+    }
+  ],
+  "omnichannel_messages": [],
+  "ai_revenue_predictions": [
+    {
+      "id": "pred-1790496047413",
+      "organization_id": "ws-default",
+      "pipeline_id": "default-pipeline",
+      "target_month": "2026-11-01",
+      "forecast_period": "2026-11",
+      "raw_pipeline_value": 600000,
+      "ai_predicted_value": 360000,
+      "weighted_pipeline_value": 270000,
+      "confidence_percentage": 80,
+      "model_version": "leadloop-forecast-v2",
+      "methodology": "stage_weighted_momentum",
+      "calculated_at": "2026-09-27T08:00:47.413Z",
+      "created_at": "2026-09-27T08:00:47.413Z"
+    },
+    {
+      "id": "pred-1",
+      "organization_id": "ws-default",
+      "pipeline_id": "default-pipeline",
+      "target_month": "2026-09-01",
+      "forecast_period": "2026-09",
+      "raw_pipeline_value": 395000,
+      "ai_predicted_value": 218500,
+      "weighted_pipeline_value": 198000,
+      "confidence_percentage": 78,
+      "model_version": "leadloop-forecast-v2",
+      "methodology": "stage_weighted_momentum",
+      "calculated_at": "2026-09-27T08:00:43.743Z",
+      "created_at": "2026-09-27T08:00:43.743Z"
+    },
+    {
+      "id": "pred-2",
+      "organization_id": "ws-default",
+      "pipeline_id": "default-pipeline",
+      "target_month": "2026-10-01",
+      "forecast_period": "2026-10",
+      "raw_pipeline_value": 450000,
+      "ai_predicted_value": 265000,
+      "weighted_pipeline_value": 235000,
+      "confidence_percentage": 72,
+      "model_version": "leadloop-forecast-v2",
+      "methodology": "stage_weighted_momentum",
+      "calculated_at": "2026-09-27T08:00:43.743Z",
+      "created_at": "2026-09-27T08:00:43.743Z"
+    },
+    {
+      "id": "pred-3",
+      "organization_id": "ws-default",
+      "pipeline_id": "default-pipeline",
+      "target_month": "2026-11-01",
+      "forecast_period": "2026-11",
+      "raw_pipeline_value": 520000,
+      "ai_predicted_value": 310000,
+      "weighted_pipeline_value": 275000,
+      "confidence_percentage": 65,
+      "model_version": "leadloop-forecast-v2",
+      "methodology": "stage_weighted_momentum",
+      "calculated_at": "2026-09-27T08:00:43.743Z",
+      "created_at": "2026-09-27T08:00:43.743Z"
+    }
+  ]
+}

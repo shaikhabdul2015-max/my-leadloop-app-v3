@@ -1,0 +1,6 @@
+{
+  "name": "LeadLoop AI — Revenue Intelligence Suite",
+  "description": "AI-powered sales intelligence, predictive revenue forecasting, behavioral lead scoring, competitor battlecards, and omnichannel follow-up platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
